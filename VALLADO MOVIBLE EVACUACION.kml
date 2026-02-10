@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>VALLADO MOVIBLE EVACUACION</name>
+    <Style id="poly-FFAA00-1200-255-nodesc-normal">
+      <LineStyle>
+        <color>ff00aaff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00aaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FFAA00-1200-255-nodesc-highlight">
+      <LineStyle>
+        <color>ff00aaff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00aaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FFAA00-1200-255-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFAA00-1200-255-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFAA00-1200-255-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>vallado movible</name>
+      <styleUrl>#poly-FFAA00-1200-255-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -65.329666,-24.182982,0
+              -65.329457,-24.18276,0
+              -65.329475,-24.182748,0
+              -65.329688,-24.182963,0
+              -65.329666,-24.182982,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

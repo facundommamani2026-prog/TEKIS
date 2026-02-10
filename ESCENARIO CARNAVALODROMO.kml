@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ESCENARIO CARNAVALODROMO</name>
+    <Style id="poly-FFFF00-1200-255-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00ffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FFFF00-1200-255-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff00ffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FFFF00-1200-255-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFFF00-1200-255-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFFF00-1200-255-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>ESCENARIO</name>
+      <styleUrl>#poly-FFFF00-1200-255-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -65.330432,-24.182631,0
+              -65.330323,-24.18252,0
+              -65.330607,-24.182307,0
+              -65.330718,-24.182424,0
+              -65.330432,-24.182631,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

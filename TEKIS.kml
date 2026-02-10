@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>TEKIS</name>
+    <Style id="poly-0288D1-7401-0-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.401</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0288D1-7401-0-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>11.1015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-7401-0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-7401-0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-7401-0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>tekis</name>
+      <styleUrl>#poly-0288D1-7401-0-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -65.328733,-24.183297,0
+              -65.328459,-24.183033,0
+              -65.327729,-24.181305,0
+              -65.329237,-24.18061,0
+              -65.329674,-24.181125,0
+              -65.33055,-24.182113,0
+              -65.329603,-24.18285,0
+              -65.329483,-24.182733,0
+              -65.328733,-24.183297,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
